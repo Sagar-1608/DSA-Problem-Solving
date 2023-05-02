@@ -14,8 +14,12 @@ class Solution {
 public:
     TreeNode* searchBST(TreeNode* root, int value) {
 
+        
+        //BASE case
         if(root==NULL) return NULL;
         if(root->val==value) return root;
+        
+        //recursive call
         if(root->val>value) return searchBST(root->left,value);
         else return searchBST(root->right,value);
 
