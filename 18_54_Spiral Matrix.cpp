@@ -16,6 +16,7 @@ public:
         int endRow = row-1;
         int endCol  = col-1; 
         
+//         this loop iterate m*n times 
         while(count<total)
         {  
             // printing starting row 
