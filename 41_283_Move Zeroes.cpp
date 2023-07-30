@@ -6,7 +6,7 @@ public:
         
         int n=nums.size();
         int nonzero=0;
-        
+          // by using swap and for loop 
         for(int i=0;i<n;i++)
         {
             if(nums[i]!=0)
