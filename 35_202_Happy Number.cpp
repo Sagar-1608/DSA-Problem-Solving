@@ -1,5 +1,4 @@
 // 202. Happy Number
-
 class Solution {
 public:
 int sum_of_sqre( int a)
