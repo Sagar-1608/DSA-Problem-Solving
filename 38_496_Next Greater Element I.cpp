@@ -16,6 +16,7 @@ public:
                 }
 
                 
+                
             }
             int ind2=0;
             for(int p =ind+1; p<n2.size();p++)
